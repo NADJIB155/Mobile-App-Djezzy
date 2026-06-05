@@ -1,0 +1,29 @@
+name: djezzy_maintenance_pro
+description: Djezzy Network Maintenance Pro Flutter Application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.1
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  http: ^1.1.2
+  shared_preferences: ^2.2.2
+  go_router: ^12.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  # assets:
+    # On préparera ce dossier plus tard si tu veux ajouter le logo Djezzy en image
+    # - assets/images/
